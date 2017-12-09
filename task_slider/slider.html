@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	<script type="text/javascript" src="data.js"></script>
+	<link rel="stylesheet" type="text/css" href="slider.css">
+</head>
+<body>
+	<div class="container">
+		<div class="slider">
+			<div class="control left" id="prev">
+				<span>
+					&#10092
+				</span>
+			</div>
+			<div class="img-container">
+				<img id="img">
+			</div>
+			<div class="control right" id="next">
+				<span>
+					&#10093
+				</span>
+			</div>
+
+			<div class="loading" id="loadingBar">
+				<img src="https://www.cattani.it/wp-content/uploads/2016/08/ajax-loading.gif">
+			</div>
+		</div>
+	</div>
+
+	<div class="zoom-container" id="zoomContainer">
+		<img id="image-zoom" src="">
+		<button class="close" id="close">&#215</button>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
